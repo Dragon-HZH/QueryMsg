@@ -106,7 +106,6 @@ export default {
 nav {
   width: 1024px;
   height: 140px;
-  border: 1px solid red;
   box-sizing: border-box;
   padding-top: 35px;
   margin: 0 auto;
