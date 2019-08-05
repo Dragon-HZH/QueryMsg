@@ -28,44 +28,45 @@
         <!-- 商品分类菜单 -->
         <div class="munt-left">
           <div>所有商品分类</div>
-
-          <ul class="product">
-            <li>
-              <router-link to>
-                <span class="iconfont icon-gongshang_"></span>工商财税
-              </router-link>
-            </li>
-            <li>
-              <router-link to>
-                <span class="iconfont icon-r"></span>知识产权
-              </router-link>
-            </li>
-            <li>
-              <router-link to>
-                <span class="iconfont icon-rongzifuwu"></span>融资服务
-              </router-link>
-            </li>
-            <li>
-              <router-link to>
-                <span class="iconfont icon-pintu1"></span>科技创新
-              </router-link>
-            </li>
-            <li>
-              <router-link to>
-                <span class="iconfont icon-zichan"></span>资产管理
-              </router-link>
-            </li>
-            <li>
-              <router-link to>
-                <span class="iconfont icon-falv"></span>法律事务
-              </router-link>
-            </li>
-            <li>
-              <router-link to>
-                <span class="iconfont icon-hulianwang"></span>互联网服务
-              </router-link>
-            </li>
-          </ul>
+          <div class="product">
+            <ul>
+              <li>
+                <router-link to>
+                  <span class="iconfont icon-gongshang_"></span>工商财税
+                </router-link>
+              </li>
+              <li>
+                <router-link to>
+                  <span class="iconfont icon-r"></span>知识产权
+                </router-link>
+              </li>
+              <li>
+                <router-link to>
+                  <span class="iconfont icon-rongzifuwu"></span>融资服务
+                </router-link>
+              </li>
+              <li>
+                <router-link to>
+                  <span class="iconfont icon-pintu1"></span>科技创新
+                </router-link>
+              </li>
+              <li>
+                <router-link to>
+                  <span class="iconfont icon-zichan"></span>资产管理
+                </router-link>
+              </li>
+              <li>
+                <router-link to>
+                  <span class="iconfont icon-falv"></span>法律事务
+                </router-link>
+              </li>
+              <li>
+                <router-link to>
+                  <span class="iconfont icon-hulianwang"></span>互联网服务
+                </router-link>
+              </li>
+            </ul>
+          </div>
         </div>
         <!-- 页面跳转导航 -->
         <ul class="munt-center clear-float">
@@ -176,29 +177,34 @@ div.munt {
   top: 13px;
   right: 15px;
 }
-.munt-left:hover .product{
+.munt-left:hover .product {
   display: block;
 }
-.product{
+.product {
+  padding-top: 6px;
   display: none;
 }
 .product li a,
 .product li span {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
 }
 .product li span {
-  font-size: 22px;
   margin: 0px 20px 0 10px;
+  vertical-align: middle;
 }
+.product li span::before {
+  font-size: 28px;
+}
+
 .product li {
   background: rgba(0, 0, 0, 0.5);
-  padding-left: 15px;
+  padding: 5px 0 5px 15px;
 }
-.product li:hover span,
+/* .product li:hover span,
 .product li:hover a {
   color: #00f;
-}
+} */
 .product li:hover {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -206,26 +212,28 @@ div.munt {
 /* 中菜单 */
 .munt-center li {
   float: left;
-  /* margin-left: 30px; */
+  margin-left: 30px;
   line-height: 37px;
 }
-.munt-center li:first-child>a{
+/* .munt-center li:first-child>a{
   padding: 0 30px;
-}
+} */
 
 a.munt-a {
   display: block;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   color: #808080;
 }
 a.munt-a:hover {
-  background: #00f;
-  color: #fff;
+  color: #00f;
 }
 
 div.munt-right {
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+div.munt-right img {
+  cursor: pointer;
 }
 </style>
