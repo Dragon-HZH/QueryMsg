@@ -71,22 +71,25 @@
         <!-- 页面跳转导航 -->
         <ul class="munt-center clear-float">
           <li>
-            <router-link to class="munt-a">首页</router-link>
+            <router-link to="/" class="munt-a">首页</router-link>
           </li>
           <li>
-            <router-link to class="munt-a">公司简介</router-link>
+            <router-link to="/jianjie" class="munt-a">公司简介</router-link>
           </li>
           <li>
-            <router-link to class="munt-a">品牌愿景</router-link>
+            <router-link to="/pinpai" class="munt-a">品牌愿景</router-link>
           </li>
           <li>
-            <router-link to class="munt-a">服务领域</router-link>
+            <router-link to="/fuwu" class="munt-a">服务领域</router-link>
           </li>
           <li>
-            <router-link to class="munt-a">年签客户</router-link>
+            <router-link to="/nianqian" class="munt-a">年签客户</router-link>
           </li>
           <li>
-            <router-link to class="munt-a">联系我们</router-link>
+            <router-link to="/lianxi" class="munt-a">联系我们</router-link>
+          </li>
+          <li>
+            <router-link to="/news" class="munt-a">新闻资讯</router-link>
           </li>
         </ul>
         <div class="munt-right">
@@ -105,7 +108,7 @@ export default {
 </script>
 <style scoped>
 nav {
-  width: 1024px;
+  width: 1240px;
   height: 140px;
   box-sizing: border-box;
   padding-top: 35px;
@@ -162,6 +165,7 @@ div.munt {
   position: relative;
   margin-right: 2px;
   cursor: pointer;
+  z-index: 1000;
 }
 .munt-left div:first-child {
   padding-left: 15px;

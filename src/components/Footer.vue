@@ -5,7 +5,8 @@
         <img src="img/other/dianhua.png" />
         <p>0000-4732612</p>
       </div>
-      <div class="f-right">全国免费电话: 400-000-*** 版权所有: 江苏****资产投资管理有限公司苏CP备1******7号-9</div>
+      <div class="f-right">全国免费电话: 400-000-*** 版权所有: 江苏****资产投资管理有限公司 
+       <br> 苏CP备1******7号-9</div>
     </footer>
   </div>
 </template>
@@ -27,7 +28,7 @@ div.foot {
   );
 }
 footer {
-  width: 1024px;
+  width: 1240px;
   height: 225px;
   margin: 0 auto;
   display: flex;

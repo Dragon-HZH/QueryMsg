@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
-import IndexBanner from "@/components/IndexBanner.vue";
+import IndexBanner from "@/components/banner/IndexBanner.vue";
 export default {
   data() {
     return {};
