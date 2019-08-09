@@ -1,0 +1,29 @@
+#content{
+    width: 1240px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.box h3{
+    color: #fff;
+    text-align: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 26px;
+    background: linear-gradient(to right,#00f 0%,#fff 100%);
+    margin-bottom: 2px;
+}
+.box h3 span{
+    font-size: 40px;
+    vertical-align: middle;
+}
+.box-items{
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    width: 910px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+}

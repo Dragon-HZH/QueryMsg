@@ -25,6 +25,7 @@ div.banner {
   position: relative;
 }
 div.banner > div {
+  width: 356px;
   position: absolute;
   top: 50%;
   left: 50%;
